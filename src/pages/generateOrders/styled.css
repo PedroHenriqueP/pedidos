@@ -1,0 +1,114 @@
+.section-generate {
+  display: flex;
+  justify-content: center;
+}
+
+.div-generate {
+  padding: 30px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-option {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px 0;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px -5px;
+}
+
+.img-option {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 5px solid green;
+}
+
+.addRemove-item {
+  background-color: orange;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.count {
+  width: 40px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.finalize-order {
+  background-color: yellow;
+  color: black;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.section-confirm {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0 0 0 / 60%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-confirm-order {
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+}
+
+.div-btn-confirm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-action {
+  padding: 10px 25px;
+  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+  border: none;
+}
+
+.div-item-confirm {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.input-table {
+  width: 80%;
+  padding: 15px;
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  .div-generate {
+    width: 95%;
+  }
+
+  .card-option {
+    flex-direction: column;
+  }
+}

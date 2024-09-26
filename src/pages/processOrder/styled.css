@@ -1,0 +1,38 @@
+.section-process {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-process {
+  background-color: white;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px -5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+.title-process {
+  background-color: yellow;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.div-list-process {
+  padding: 30px;
+}
+
+.a-completed {
+  width: 100%;
+  background-color: #32b432;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
