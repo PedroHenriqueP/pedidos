@@ -14,7 +14,6 @@ export default function ProcessOrder() {
   }
 
   function completedOrder(order, orderIndex) {
-    console.log('func')
     var allItems = JSON.parse(window.localStorage.getItem("listaPedidos"));
 
     allItems[orderIndex] = { ...order, confirmed: true };

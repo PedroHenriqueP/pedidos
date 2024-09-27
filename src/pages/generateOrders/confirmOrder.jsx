@@ -32,15 +32,7 @@ export default function ConfirmOrder(props) {
     <>
       <section className="section-confirm">
         <div className="modal-confirm-order">
-          <h3
-            onClick={() =>
-              console.log(
-                JSON.parse(window.localStorage.getItem("listaPedidos"))
-              )
-            }
-          >
-            Confirme o pedido:
-          </h3>
+          <h3>Confirme o pedido:</h3>
 
           <div style={{ marginBottom: 40 }}>
             {order.map((e, i) => (
