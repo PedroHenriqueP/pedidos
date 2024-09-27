@@ -1,8 +1,10 @@
 .section-process {
   width: 100%;
+  min-height: 100dvh;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  background-color: whitesmoke;
 }
 
 .card-process {
@@ -30,7 +32,7 @@
 
 .a-completed {
   width: 100%;
-  background-color: #32b432;
+  background-color: #40a640;
   color: white;
   padding: 10px 0;
   text-align: center;

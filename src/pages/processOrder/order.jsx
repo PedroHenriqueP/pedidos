@@ -11,7 +11,7 @@ export default function Order(props) {
 
       <div
         className="div-list-process"
-        style={{ backgroundColor: confirmed ? "#32b432" : "white" }}
+        style={{ backgroundColor: confirmed ? "#40a640" : "white" }}
       >
         {e.order.map((order, index) => (
           <div key={index} style={{ color: confirmed ? "white" : "black" }}>
