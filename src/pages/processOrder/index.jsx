@@ -29,12 +29,14 @@ export default function ProcessOrder() {
   return (
     <>
       <section className="section-process">
-        {list.length > 0 &&
-          list.map((e, i) => (
-            <div key={i}>
-              <Order e={e} i={i} completedOrder={completedOrder} />
-            </div>
-          ))}
+        <div className="div-process">
+          {list.length > 0 &&
+            list.map((e, i) => (
+              <div key={i}>
+                <Order e={e} i={i} completedOrder={completedOrder} />
+              </div>
+            ))}
+        </div>
       </section>
     </>
   );
